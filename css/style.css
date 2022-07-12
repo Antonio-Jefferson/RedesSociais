@@ -22,7 +22,7 @@ img{
 .avatar{
     width: 140px;
     height: 140px;
-    border: 4px blue solid;
+    border: 4px #27ae60 solid;
     padding: 3.7px;
 }
 ul{
@@ -45,14 +45,14 @@ ul li a {
     height: 52px;
     align-items: center;
     justify-content: center;
-    background-color:rgb(51, 29, 129);
+    background-color:#27ae60;
     margin-top: 12px;
     border-radius: 8px;
     color: #fff;
     transition: 0.5s;
 }
 ul li a:hover{
-    background-color:rgb(62, 34, 166) ;
+    background-color:#176b3a;
 }
 .icon{
    width: 25px;
