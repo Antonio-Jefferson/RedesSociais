@@ -2,11 +2,24 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(19, 13, 28);
-    color: #fff;
+    background-image: linear-gradient(-45deg, #0e0522,#110431, #780909,#110431,#490707,#110431,#0e0522);
+    background-size: 300% 300%;
+    animation-name: degrade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes degrade{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 100%;
+    }
 }
 .conteudo{
     text-align: center;
@@ -33,10 +46,12 @@ ul li a{
     text-decoration: none;
 }
 h1{
+    color: #fff;
     margin-top: 24px;
     margin-bottom: 8px;
 }
 p{
+    color: #fff;
     font-family: 'Roboto Mono', monospace;
 }
 ul li a {
