@@ -1,0 +1,10 @@
+{
+  "name": "antonio-jefferson-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Página pessoal de produtos — site estático, sem build.",
+  "license": "MIT",
+  "engines": {
+    "node": "24.x"
+  }
+}

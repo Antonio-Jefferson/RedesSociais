@@ -17,6 +17,7 @@ python3 -m http.server 8000
 
 ```
 index.html        marcação e meta tags (SEO + Open Graph)
+package.json      só fixa o Node 24.x para o deploy; o site não usa Node
 css/style.css     tokens no :root, componentes abaixo
 js/main.js        carrossel dos produtos (scroll-snap + setas + bolinhas)
 img/eu.png        foto de perfil
